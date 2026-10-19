@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3f4ef">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Hushållskassan">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="color-scheme" content="light dark">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Hushållskassan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app"></main>
+<nav id="nav">
+  <a href="#/" data-route="">      <span></span>Översikt</a>
+  <a href="#/hushall" data-route="hushall"><span></span>Hushåll</a>
+  <a href="#/utgifter" data-route="utgifter"><span></span>Utgifter</a>
+  <a href="#/bostad" data-route="bostad"><span></span>Bostad</a>
+  <a href="#/mer" data-route="mer"><span></span>Mer</a>
+</nav>
+<script src="ui.js"></script>
+<script src="rules.js"></script>
+<script src="bostad.js"></script>
+<script src="sambo.js"></script>
+<script src="sparande.js"></script>
+<script src="bil.js"></script>
+<script src="barn.js"></script>
+<script src="kopbeslut.js"></script>
+<script src="overenskommelser.js"></script>
+<script src="resor.js"></script>
+<script src="djur.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
